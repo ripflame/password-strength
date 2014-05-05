@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Password Verification</title>
+  </head>
+  <body>
+  <div id="container">
+    <h1>Password Verification</h1>
+    <form action="" method="post">
+      <ul>
+        <li>
+          <label for="username">Username:</label>
+          <span>
+            <input type="text" id="username" value="" name="username">
+          </span>
+        </li>
+        <li>
+          <label for="pswd">Password:</label>
+          <span>
+            <input type="password" id="pswd" value="" name="pswd">
+          </span>
+        </li>
+        <li>
+          <button type="submit">Register</button>
+        </li>
+      </ul>
+    </form>
+  </div>
+  <div id="paswd_info">
+    <h4>Password must meet the following requirements:</h4>
+    <ul>
+      <li id="letter" class="invalid">At least <strong>one letter</strong></li>
+      <li id="capital" class="invalid">At least <strong>one capital</strong></li>
+      <li id="number" class="invalid">At least <strong>one number</strong></li>
+      <li id="length" class="invalid">At least <strong>8 characters</strong></li>
+    </ul>
+  </div>
+  </body>
+</html>
